@@ -1,11 +1,18 @@
 import logo from './logo.svg';
 import './App.css';
-import Hello from './components/Hello'
+import Navbar from './components/Navbar'
+import Hero from './components/Hero'
+
 
 function App() {
   return (
-    <Hello />
+    <>
+      
+      <Navbar />
+      <Hero />
+    </>
   );
 }
+
 
 export default App;
